@@ -11,7 +11,7 @@ namespace CSharpEgitimKampi501Dapper
     {
         public SqlConnection Baglantı()
         {
-            SqlConnection sql = new SqlConnection("Data Source=YigitOrucu\\SQLEXPRESS;Initial Catalog=DB_CSharpEgitimKampı501Dapper;Integrated Security=True;TrustServerCertificate=True");
+            SqlConnection sql = new SqlConnection("Data Source=YIGITORUCU\\MY_YOUTUBEKURSU;Initial Catalog=DB_CSharpEgitimKampı501Dapper;Integrated Security=True;TrustServerCertificate=True");
             sql.Open();
             return sql;
         }
